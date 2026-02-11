@@ -1,0 +1,206 @@
+@import "tailwindcss";
+
+body {
+    background: linear-gradient(to bottom, rgb(92, 92, 94), #22211e);
+    color: white;
+    border: white;
+    
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.cabeçalhos{
+   width: 421px;
+    height: 54px;
+    border-radius: 24px;
+    background-color: #363636;
+    border: 2px solid white;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+}
+.cabeçalhos-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 16px;
+}
+
+h1 {
+    width: 159.103px;
+    height: 37.479px;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    background: #1565C0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.historia {
+    width: auto;
+    height: auto;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400; 
+    background: #1565C0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  text-align: center;    
+}
+
+.sobre p {
+  max-width: 800px;      
+}
+
+.lore {
+    background-color: #363636;
+    border: 2px solid rgb(255, 253, 253);
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;    
+}
+
+.Medicos{
+    display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Medicos p {
+    background-color: #363636;
+    border: 2px solid white;
+    border-radius: 28px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center; 
+    
+}
+.fotoMedico {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    max-width: 800px;
+    background-color: #363636;
+    border-radius: 26px;
+    border: 2px solid white;
+}
+
+.medico {
+    width: auto;
+    height: auto;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400; 
+    background: #1565C0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: end;  
+    text-align: end;
+}
+
+.localizacao p {
+    max-width: 800px;
+    background-color: #363636;
+    border-radius: 17px;
+    border: 1px solid white;
+   
+}
+
+.localizacao h2 {
+    width: auto;
+    height: auto;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400; 
+    background: #1565C0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundo h3 {
+    width: auto;
+    height: auto;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400; 
+    background: #1565C0;
+    background-clip: text;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.motivacao {
+    width: auto;
+    height: auto;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400; 
+    background:white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
